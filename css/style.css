@@ -1,5 +1,6 @@
 :root{
        --main-color:#10cab7;
+       --secondary-color:#1c62858e;
 }
 *{
          margin: 0px;
@@ -35,6 +36,32 @@ body{
                   width: 1170px;
          }        
 }
+/* start component */
+.special-heading{
+       color:#ebeced;
+       font-size: 100px;
+       text-align: center;
+       font-weight: 800;
+       letter-spacing: -3px;
+       margin: 0;
+}
+.special-heading+p{
+       margin: -30px 0 0;
+       font-size: 20px;
+       text-align: center;
+       color: #797979;
+}
+@media(max-width:767px)
+{
+       .special-heading{
+              font-size: 60px;
+
+       }
+       .special-heading+p{
+              margin-top: -20px;
+       }
+}
+/* End component */
 
 
 /* first header*/
@@ -181,6 +208,81 @@ background-color: #f6f6f664;
        
  }
  /*End section 1*/
+ /*  start services */
+ .services{
+       padding-top: 60px;
+       padding-bottom: 60px;
+ }
+ .services .services-content{
+       display: grid;
+       grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+       grid-gap: 40px;
+       margin-top: 100px;
+       position: relative;
+      
+ }
+ .services .services-content .serv{
+       display: flex;
+       margin-bottom: 40px;
+       position: relative;
+
+ }
+ @media(max-width:767px){
+       .services .services-content .serv{
+              display: flex;
+             flex-direction: column;
+             text-align: center;
+       
+        }
+ }
+
+ .services .services-content .serv i{
+       color:var(--main-color);
+       flex-basis: 60px;
+       font-size: 20px;
+ }
+ .services .services-content .serv text{
+       flex: 1;
+ }
+ .services .services-content .serv text h3
+ {
+      margin: 0 0 20px;
+ }
+ .services .services-content .serv text p
+ {
+       color:#444;
+       font-weight: 300;
+       line-height: 1.6;
+
+ }
+ .services .services-content .col
+ {
+       text-align: center;
+       position: relative;
+ }
+ .services .services-content  .image img{
+       width: 260px;
+ }
+ .services .services-content .image::after{
+       content: "";
+       background-color: var(--secondary-color);
+       width: 100px;
+       height: 300px;
+       top: -50px;
+       position: absolute;
+       right: 0;
+       z-index: -1;
+ }
+ @media(max-width:1199px){
+       .image-column{
+              display: none;
+       }
+ }
+
+ 
+
+       
+ /* End Services */
 
 
 

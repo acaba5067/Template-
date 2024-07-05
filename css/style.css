@@ -124,7 +124,7 @@ body{
 /*  first section mouantain*/
 .landing{
        background-image: url(../image/89f17d6e133ba9cf6441def000382fe8c963e2b1-500x375.png);
-       background-size: cover;
+      width: 100%;
        height: calc(100vh);
        position: relative;
 }
@@ -157,7 +157,7 @@ background-color: #f6f6f6;
 }
 .features .container{
        display: grid;
-       grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+       grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
        grid-gap: 20px;
 }
 .features .feat{

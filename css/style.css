@@ -120,9 +120,9 @@ body{
 }
 /*End header*/
 /*  first section mouantain*/
-.landing .container{
+.landing{
        background-image: url(../image/Everest\,_Nepal\,_Himalayas.jpg);
-       width: 100%;
+       background-size: cover;
        height: 100vh;
        position: relative;
 }

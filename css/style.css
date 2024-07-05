@@ -23,8 +23,8 @@ body{
                   width: 100%;
          }  
          .landing{
-              width: 768px;
-              padding-left: 100px;
+              width: 100%;
+              margin: auto;
          }       
 }
 /*meduim*/
@@ -34,6 +34,7 @@ body{
          }  
          .landing{
               width: 100%;
+              margin: auto;
          }       
 }
 /*large*/
@@ -43,6 +44,7 @@ body{
          }  
          .landing{
               width: 100%;
+              margin: auto;
          }       
 }
 
@@ -133,7 +135,7 @@ body{
 /*End header*/
 /*  first section mouantain*/
 .landing{
-       background-image: url(../image/Everest\,_Nepal\,_Himalayas.jpg);
+       background-image: url(../image/89f17d6e133ba9cf6441def000382fe8c963e2b1-500x375.png);
        background-size: cover;
        height: calc(100vh);
        position: relative;

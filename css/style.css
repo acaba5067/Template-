@@ -157,7 +157,7 @@ background-color: #f6f6f664;
 }
 .features .container{
        display: grid;
-       grid-template-rows: minmax(200px,auto);
+       grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
        grid-gap: 20px;
 }
 .features .feat{

@@ -21,7 +21,6 @@ body{
 @media (min-width:768px){
          .container{
                   width: 750px;
-                  margin: auto;
          }  
 }
 /*meduim*/
@@ -123,7 +122,7 @@ body{
 }
 /*End header*/
 /*  first section mouantain*/
-.landing .container{
+.landing {
        background-image: url(../image/Everest\,_Nepal\,_Himalayas.jpg);
       background-size: cover;
        height: calc(100vh);

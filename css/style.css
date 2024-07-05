@@ -20,11 +20,8 @@ body{
 /*small*/
 @media (min-width:768px){
          .container{
-                  width: 100%;
+                  width: 750px;
          }  
-         .landing{
-              margin-left: 1200px;
-         }       
 }
 /*meduim*/
 @media (min-width:992px){

@@ -125,9 +125,7 @@ body{
 /*  first section mouantain*/
 .landing .container{
        background-image: url(../image/Everest\,_Nepal\,_Himalayas.jpg);
-       display: flex;
-       align-items: center;
-       width: 100%;
+      background-size: cover;
        height: calc(100vh);
        position: relative;
 }

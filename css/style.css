@@ -24,6 +24,7 @@ body{
          }  
          .landing{
               width: 768px;
+              padding-left: 100px;
          }       
 }
 /*meduim*/

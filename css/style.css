@@ -122,11 +122,11 @@ body{
 /*  first section mouantain*/
 .landing .container{
        background-image: url(../image/Everest\,_Nepal\,_Himalayas.jpg);
-       background-size: cover;
+       width: 100%;
        height: 100vh;
        position: relative;
 }
-.landing .container.intro-text{
+.landing .intro-text{
        position: absolute;
        left: 50%;
        top:50%;

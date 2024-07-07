@@ -479,7 +479,7 @@ background-color: var(--section-background);
        font-weight: bold;
        color: var(--main-color);
 }
-/* @media(max-width:767px){
+@media(max-width:767px){
       .footer
       {
        background-color: var(--secondary-color);
@@ -488,7 +488,7 @@ background-color: var(--section-background);
        flex-direction: row;
        justify-content: center;
       }
-} */
+}
 /* ENd footer */
 
 

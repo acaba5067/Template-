@@ -335,7 +335,7 @@ background-color: var(--section-background);
 @media(max-width:991px){
        .about .about-content{
               flex-direction: column;
-              margin: auto;
+              margin-left: -150px;
        }
 }
 .about .about-content .image{

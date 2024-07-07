@@ -3,6 +3,7 @@
        --secondary-color:#1c62858e;
        --section-padding:60px;
        --section-background:#f6f6f6;
+       --main-duration:0.3s;
 }
 *{
          margin: 0px;
@@ -24,6 +25,9 @@ body{
 @media (min-width:768px){
          .container{
                   width: 750px;
+         }
+         .container .Portfolio{
+              margin-left: 20px;
          }  
 }
 /*meduim*/
@@ -37,7 +41,7 @@ body{
          .container{
                   width: 1170px;
          } 
-         .container .footer{
+         .container .footer ,.container .landing,.container .features, .container .services ,.container .about ,.container .contact{
               width: 1300px;
               margin-left:-80px;
          }      
@@ -199,7 +203,7 @@ background-color: var(--section-background);
 }
 .container .features {
        display: grid;
-       grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+       grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
        grid-gap: 20px;
 }
 .features .feat{

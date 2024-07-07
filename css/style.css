@@ -479,7 +479,7 @@ background-color: var(--section-background);
        font-weight: bold;
        color: var(--main-color);
 }
-@media(max-width:767px){
+@media(max-width:991px){
       .footer
       {
        background-color: var(--secondary-color);

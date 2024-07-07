@@ -26,8 +26,8 @@ body{
          .container{
                   width: 750px;
          }
-         .container .Portfolio{
-              margin-left: 20px;
+         .container .Portfolio ,.container .landing{
+              margin: auto;
          }  
 }
 /*meduim*/

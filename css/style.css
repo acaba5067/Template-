@@ -479,12 +479,11 @@ background-color: var(--section-background);
        font-weight: bold;
        color: var(--main-color);
 }
-@media(max-width:991)
+@media(max-width:400px)
 {
-       .footer{
+       .footer
+       {
               width: 100%;
-              display: grid;
-              grid-template-columns: repeat(1,1fr);
        }
 }
 /* ENd footer */

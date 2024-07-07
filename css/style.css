@@ -483,7 +483,7 @@ background-color: var(--section-background);
 {
        .footer
        {
-             padding: 0px 20px;
+             margin: auto;
        }
 }
 /* ENd footer */

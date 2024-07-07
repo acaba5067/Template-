@@ -295,7 +295,7 @@ background-color: var(--section-background);
 .Portfolio{
        padding-top: var(--section-padding);
        padding-bottom: var(--section-padding);
-       background-color: var(--section-background);
+       /* background-color: var(--section-background); */
 
 }
 .Portfolio .Portfolio-content
@@ -417,7 +417,7 @@ background-color: var(--section-background);
 {
        padding-top: var(--section-padding);
        padding-bottom: var(--section-padding);
-       background-color: var(--section-background);
+       /* background-color: var(--section-background); */
 
 }
 .contact .info{
@@ -483,7 +483,7 @@ background-color: var(--section-background);
 {
        .footer
        {
-             margin-left:80px;
+             padding: 10px 30px;
        }
 }
 /* ENd footer */

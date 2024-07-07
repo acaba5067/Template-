@@ -36,7 +36,11 @@ body{
 @media (min-width:1200px){
          .container{
                   width: 1170px;
-         }        
+         } 
+         .container .footer{
+              width: 1300px;
+              margin-left:-80px;
+         }      
 }
 /* start component */
 .special-heading{

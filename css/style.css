@@ -151,11 +151,19 @@ body{
 }
 /*End header*/
 /*  first section mouantain*/
+
+
 .landing {
        background-image: url(../image/Everest\,_Nepal\,_Himalayas.jpg);
       background-size: cover;
        height: calc(100vh);
        position: relative;
+}
+@media(max-width:991px)
+{
+       .landing{
+              max-width:100%;
+       }
 }
 .landing .intro-text{
        position: absolute;

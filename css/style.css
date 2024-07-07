@@ -484,6 +484,9 @@ background-color: var(--section-background);
       {
        background-color: var(--secondary-color);
        max-width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
       }
 }
 /* ENd footer */

@@ -70,7 +70,7 @@ body{
 .header{
          padding: 20px;
 }
-.header .container{
+.container .header {
          display: flex;
          justify-content: space-between;
          align-items: center;
@@ -193,7 +193,7 @@ padding-top: var(--section-padding);
 padding-bottom: var(--section-padding);
 background-color: var(--section-background);
 }
-.features .container{
+.container .features {
        display: grid;
        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
        grid-gap: 20px;
@@ -479,13 +479,7 @@ background-color: var(--section-background);
        font-weight: bold;
        color: var(--main-color);
 }
-@media(max-width:768px)
-{
-       .footer
-       {
-             padding: 10px 30px;
-       }
-}
+
 /* ENd footer */
 
 

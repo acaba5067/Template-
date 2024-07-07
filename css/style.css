@@ -460,6 +460,9 @@ background-color: var(--section-background);
        .contact .info .link,.contact .info .label{
               font-size: 25px;
        }
+       .contact{
+              background-color: var(--section-background);
+       }
 }
 /* End contact */
 
@@ -475,6 +478,12 @@ background-color: var(--section-background);
 .footer span{
        font-weight: bold;
        color: var(--main-color);
+}
+@media(max-width:767px){
+      .footer
+      {
+       background-color: var(--secondary-color);
+      }
 }
 /* ENd footer */
 
